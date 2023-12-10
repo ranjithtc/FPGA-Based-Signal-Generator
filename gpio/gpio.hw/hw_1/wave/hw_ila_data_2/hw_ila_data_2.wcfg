@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="/home/ranjithgowda/Documents/FPGA/Projects/gpio/gpio.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="19">
+	</WVObjectSize>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_WREADY" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_WREADY</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_WREADY</obj_property>
+		<obj_property name="label">system/system_i/ps7_0_axi_periph_M00_AXI_Wsystem/system_i/ps7_0_axi_periph_M00_AXI_WREADYREADY</obj_property>
+		<obj_property name="DisplayName">label</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_AWADDR" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_AWADDR[4:0]</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_AWADDR[4:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_BRESP" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_BRESP[1:0]</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_BRESP[1:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_BVALID" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_BVALID</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_BVALID</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_BREADY" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_BREADY</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_BREADY</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_araddr" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_araddr[4:0]</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_araddr[4:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_RREADY" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_RREADY</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_RREADY</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_WVALID" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_WVALID</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_WVALID</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_arvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_arvalid</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_arvalid</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/gpio_0_axi_arready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/gpio_0_axi_arready</obj_property>
+		<obj_property name="ObjectShortName">gpio_0_axi_arready</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/gpio_0_axi_rdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/gpio_0_axi_rdata[31:0]</obj_property>
+		<obj_property name="ObjectShortName">gpio_0_axi_rdata[31:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_AWVALID" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_AWVALID</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_AWVALID</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_AWREADY" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_AWREADY</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_AWREADY</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_RRESP" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_RRESP[1:0]</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_RRESP[1:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_WDATA" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_WDATA[31:0]</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_WDATA[31:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_WSTRB" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_WSTRB[3:0]</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_WSTRB[3:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/gpio_0_axi_rvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/gpio_0_axi_rvalid</obj_property>
+		<obj_property name="ObjectShortName">gpio_0_axi_rvalid</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_ARPROT" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_ARPROT[2:0]</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_ARPROT[2:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="system/system_i/ps7_0_axi_periph_M00_AXI_AWPROT" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">system/system_i/ps7_0_axi_periph_M00_AXI_AWPROT[2:0]</obj_property>
+		<obj_property name="ObjectShortName">ps7_0_axi_periph_M00_AXI_AWPROT[2:0]</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+</wave_config>
+

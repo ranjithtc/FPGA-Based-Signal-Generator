@@ -1,0 +1,444 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x4FB913E132F70350",
+      "device": "xc7z007sclg400-1",
+      "name": "BRAM",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "blk_mem_gen_0": "",
+      "blk_mem_gen_1": "",
+      "blk_mem_gen_2": ""
+    },
+    "ports": {
+      "BRAMaddr_A": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "BRAMclk_A": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "BRAM_clka_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "BRAMdout_A": {
+        "direction": "O",
+        "left": "15",
+        "right": "0"
+      },
+      "BRAMaddr_B": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "BRAMclk_B": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "BRAM_clkb_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "BRAMdout_B": {
+        "direction": "O",
+        "left": "15",
+        "right": "0"
+      },
+      "BRAM_Triaddr_A": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "BRAM_Triclk_A": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "BRAM_clka_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "BRAM_Tridout_A": {
+        "direction": "O",
+        "left": "15",
+        "right": "0"
+      },
+      "BRAM_Tridout_B": {
+        "direction": "O",
+        "left": "15",
+        "right": "0"
+      },
+      "BRAM_Triclk_B": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "BRAM_clkb_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "BRAM_Triaddr_B": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "BRAM_ArbAddr_A": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "BRAM_Arbclk_A": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "BRAM_clka_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "BRAM_Arbdout_A": {
+        "direction": "O",
+        "left": "15",
+        "right": "0"
+      },
+      "BRAM_ArbAddr_B": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "BRAM_Arbclk_B": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "BRAM_clkb_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "BRAM_Arbdout_B": {
+        "direction": "O",
+        "left": "15",
+        "right": "0"
+      }
+    },
+    "components": {
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "BRAM_blk_mem_gen_0_0",
+        "xci_path": "ip\\BRAM_blk_mem_gen_0_0\\BRAM_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "blk_mem_gen_0",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../src/coefficient_file.coe"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Enable_B": {
+            "value": "Always_Enabled"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Dual_Port_ROM"
+          },
+          "Write_Depth_A": {
+            "value": "4096"
+          },
+          "Write_Width_A": {
+            "value": "16"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "blk_mem_gen_1": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "BRAM_blk_mem_gen_1_0",
+        "xci_path": "ip\\BRAM_blk_mem_gen_1_0\\BRAM_blk_mem_gen_1_0.xci",
+        "inst_hier_path": "blk_mem_gen_1",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../src/output.coe"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Enable_B": {
+            "value": "Always_Enabled"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Dual_Port_ROM"
+          },
+          "Write_Depth_A": {
+            "value": "4096"
+          },
+          "Write_Width_A": {
+            "value": "16"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "blk_mem_gen_2": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "BRAM_blk_mem_gen_2_0",
+        "xci_path": "ip\\BRAM_blk_mem_gen_2_0\\BRAM_blk_mem_gen_2_0.xci",
+        "inst_hier_path": "blk_mem_gen_2",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../src/Tes.coe"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Enable_B": {
+            "value": "Always_Enabled"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Dual_Port_ROM"
+          },
+          "Write_Depth_A": {
+            "value": "4096"
+          },
+          "Write_Width_A": {
+            "value": "16"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      }
+    },
+    "nets": {
+      "addra_0_1": {
+        "ports": [
+          "BRAMaddr_A",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "addra_0_2": {
+        "ports": [
+          "BRAM_Triaddr_A",
+          "blk_mem_gen_1/addra"
+        ]
+      },
+      "addra_0_3": {
+        "ports": [
+          "BRAM_ArbAddr_A",
+          "blk_mem_gen_2/addra"
+        ]
+      },
+      "addrb_0_1": {
+        "ports": [
+          "BRAMaddr_B",
+          "blk_mem_gen_0/addrb"
+        ]
+      },
+      "addrb_0_2": {
+        "ports": [
+          "BRAM_Triaddr_B",
+          "blk_mem_gen_1/addrb"
+        ]
+      },
+      "addrb_0_3": {
+        "ports": [
+          "BRAM_ArbAddr_B",
+          "blk_mem_gen_2/addrb"
+        ]
+      },
+      "blk_mem_gen_0_douta": {
+        "ports": [
+          "blk_mem_gen_0/douta",
+          "BRAMdout_A"
+        ]
+      },
+      "blk_mem_gen_0_doutb": {
+        "ports": [
+          "blk_mem_gen_0/doutb",
+          "BRAMdout_B"
+        ]
+      },
+      "blk_mem_gen_1_douta": {
+        "ports": [
+          "blk_mem_gen_1/douta",
+          "BRAM_Tridout_A"
+        ]
+      },
+      "blk_mem_gen_1_doutb": {
+        "ports": [
+          "blk_mem_gen_1/doutb",
+          "BRAM_Tridout_B"
+        ]
+      },
+      "blk_mem_gen_2_douta": {
+        "ports": [
+          "blk_mem_gen_2/douta",
+          "BRAM_Arbdout_A"
+        ]
+      },
+      "blk_mem_gen_2_doutb": {
+        "ports": [
+          "blk_mem_gen_2/doutb",
+          "BRAM_Arbdout_B"
+        ]
+      },
+      "clka_0_1": {
+        "ports": [
+          "BRAMclk_A",
+          "blk_mem_gen_0/clka"
+        ]
+      },
+      "clka_0_2": {
+        "ports": [
+          "BRAM_Triclk_A",
+          "blk_mem_gen_1/clka"
+        ]
+      },
+      "clka_0_3": {
+        "ports": [
+          "BRAM_Arbclk_A",
+          "blk_mem_gen_2/clka"
+        ]
+      },
+      "clkb_0_1": {
+        "ports": [
+          "BRAMclk_B",
+          "blk_mem_gen_0/clkb"
+        ]
+      },
+      "clkb_0_2": {
+        "ports": [
+          "BRAM_Triclk_B",
+          "blk_mem_gen_1/clkb"
+        ]
+      },
+      "clkb_0_3": {
+        "ports": [
+          "BRAM_Arbclk_B",
+          "blk_mem_gen_2/clkb"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.69043",
+   "Default View_TopLeft":"-820,-595",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 2180 -y 180 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 2180 -y 320 -defaultsOSRD
+preplace port port-id_SCK -pg 1 -lvl 5 -x 2180 -y -560 -defaultsOSRD
+preplace port port-id_SDI -pg 1 -lvl 5 -x 2180 -y -490 -defaultsOSRD
+preplace port port-id_LDAC -pg 1 -lvl 5 -x 2180 -y -460 -defaultsOSRD
+preplace port port-id_CS -pg 1 -lvl 5 -x 2180 -y -390 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 920 -y 420 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 1330 -y 70 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 1680 -y 610 -defaultsOSRD
+preplace inst wavegen_0 -pg 1 -lvl 4 -x 2020 -y -280 -defaultsOSRD
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 2 1520 -260 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 -800 540 1130 -30 1510 -280 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 1140 50n
+preplace netloc wavegen_0_CS 1 4 1 2160 -390n
+preplace netloc wavegen_0_LDAC 1 4 1 2150 -460n
+preplace netloc wavegen_0_SCK 1 4 1 2130 -560n
+preplace netloc wavegen_0_SDI 1 4 1 2140 -490n
+preplace netloc processing_system7_0_DDR 1 1 4 N 360 N 360 N 360 2140
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 N 380 N 380 N 380 2160
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 1120 510 N
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 1 1830 -300n
+levelinfo -pg 1 -820 920 1330 1680 2020 2180
+pagesize -pg 1 -db -bbox -sgen -820 -1510 2300 2230
+"
+}
+{
+   "da_axi4_cnt":"7",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}

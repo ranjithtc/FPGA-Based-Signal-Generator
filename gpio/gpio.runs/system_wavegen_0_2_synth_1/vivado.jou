@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Nov 29 20:57:43 2023
+# Process ID: 83943
+# Current directory: /home/ranjithgowda/Documents/FPGA/Projects/R_Project_SOC/R_Project_SOC/Project/gpio/gpio.runs/system_wavegen_0_2_synth_1
+# Command line: vivado -log system_wavegen_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wavegen_0_2.tcl
+# Log file: /home/ranjithgowda/Documents/FPGA/Projects/R_Project_SOC/R_Project_SOC/Project/gpio/gpio.runs/system_wavegen_0_2_synth_1/system_wavegen_0_2.vds
+# Journal file: /home/ranjithgowda/Documents/FPGA/Projects/R_Project_SOC/R_Project_SOC/Project/gpio/gpio.runs/system_wavegen_0_2_synth_1/vivado.jou
+# Running On: ranjithgowda-Surface-Laptop-3, OS: Linux, CPU Frequency: 3283.216 MHz, CPU Physical cores: 4, Host memory: 7887 MB
+#-----------------------------------------------------------
+source system_wavegen_0_2.tcl -notrace
