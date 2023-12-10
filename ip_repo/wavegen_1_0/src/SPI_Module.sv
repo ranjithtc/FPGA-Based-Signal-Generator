@@ -4,7 +4,7 @@
 // Engineer: 
 // 
 // Create Date: 10/19/2023 04:15:12 PM
-// Design Name: 
+// Designed By: Ranjith 
 // Module Name: SPI_Module
 // Project Name: 
 // Target Devices: 
